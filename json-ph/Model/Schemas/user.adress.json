@@ -1,0 +1,33 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Coreeple/json-works/json-ph/Model/Schemas/user.adress.json",
+  "title": "Adress",
+  "description": "An adress information of any user",
+  "type": "object",
+  "properties": {
+    "street": {
+      "type": "string"
+    },
+    "suite": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "zipcode": {
+      "type": "string"
+    },
+    "geo": {
+      "type": "object",
+      "description": "Geographical information of the adress",
+      "$ref": "https://github.com/Coreeple/json-works/json-ph/Model/Schemas/user.adress.geo.json"
+    }
+  },
+  "required": [
+    "street",
+    "suite",
+    "city",
+    "zipcode",
+    "geo"
+  ]
+}

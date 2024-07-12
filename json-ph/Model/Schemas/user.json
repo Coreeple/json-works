@@ -1,0 +1,43 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Coreeple/json-works/json-ph/Model/Schemas/user.json",
+  "title": "User",
+  "description": "A user that can interact with posts, comments, albums etc.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "address": {
+      "$ref": "https://github.com/Coreeple/json-works/json-ph/Model/Schemas/user.adress.json"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "company": {
+      "$ref": "https://github.com/Coreeple/json-works/json-ph/Model/Schemas/user.company.json"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "username",
+    "email",
+    "address",
+    "phone",
+    "website",
+    "company"
+  ]
+}

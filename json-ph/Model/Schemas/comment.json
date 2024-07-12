@@ -1,0 +1,31 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Coreeple/json-works/json-ph/Model/Schemas/comment.json",
+  "title": "Comment",
+  "description": "A comment that users can make to a post",
+  "type": "object",
+  "properties": {
+    "postId": {
+      "type": "integer"
+    },
+    "id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "body": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "postId",
+    "id",
+    "name",
+    "email",
+    "body"
+  ]
+}

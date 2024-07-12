@@ -1,0 +1,27 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Coreeple/json-works/json-ph/Model/Schemas/photo.json",
+  "title": "Photo",
+  "description": "A photo that users cane share.",
+  "type": "object",
+  "properties": {
+    "userId": {
+      "type": "integer"
+    },
+    "id": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "userId",
+    "id",
+    "title",
+    "body"
+  ]
+}
