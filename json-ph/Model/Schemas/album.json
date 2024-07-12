@@ -1,0 +1,23 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Coreeple/json-works/json-ph/Model/Schemas/album.json",
+  "title": "Post",
+  "description": "An album that users cane store their photos.",
+  "type": "object",
+  "properties": {
+    "userId": {
+      "type": "integer"
+    },
+    "id": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "userId",
+    "id",
+    "title"
+  ]
+}

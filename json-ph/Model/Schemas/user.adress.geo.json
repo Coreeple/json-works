@@ -1,0 +1,19 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Coreeple/json-works/json-ph/Model/Schemas/user.adress.geo.json",
+  "title": "Geo",
+  "description": "Geo information of an adress",
+  "type": "object",
+  "properties": {
+    "lat": {
+      "type": "string"
+    },
+    "lng": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "lat",
+    "lng"
+  ]
+}
