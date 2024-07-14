@@ -1,0 +1,55 @@
+{
+    "store": {
+        "name": "Fictional Bookstore",
+        "location": "123 Book St, Reading City",
+        "books": [
+            {
+                "category": "Fiction",
+                "title": "The Great Adventure",
+                "authors": [
+                    "John Doe",
+                    "Jane Doe"
+                ],
+                "publication": {
+                    "publisher": "Adventure Publishing",
+                    "year": 2020
+                },
+                "price": 12.99
+            },
+            {
+                "category": "Science Fiction",
+                "title": "Journey to Mars",
+                "authors": [
+                    "Emily Stone"
+                ],
+                "publication": {
+                    "publisher": "Galaxy Books",
+                    "year": 2022
+                },
+                "price": 15.99
+            },
+            {
+                "category": "Non-Fiction",
+                "title": "Learning JSON",
+                "authors": [
+                    "Chris Tech"
+                ],
+                "publication": {
+                    "publisher": "Tech Press",
+                    "year": 2021
+                },
+                "price": 9.99
+            }
+        ]
+    },
+    "employees": [
+        {
+            "name": "Alice",
+            "role": "Manager"
+        },
+        {
+            "name": "Bob",
+            "role": "Assistant"
+        }
+    ]
+}
