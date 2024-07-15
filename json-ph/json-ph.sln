@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchemaLib", "SchemaLib\Sche
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkshopSchema", "WorkshopSchema\WorkshopSchema.csproj", "{E3F038B7-B44F-4C81-A9D5-ACDD78952454}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkshopPointer", "WorkshopPointer\WorkshopPointer.csproj", "{DCACFF3F-3105-42E8-9DC9-79CCB0B1E729}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkshopPointer", "WorkshopPointer\WorkshopPointer.csproj", "{DCACFF3F-3105-42E8-9DC9-79CCB0B1E729}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkshopJsonE", "WorkshopJsonE\WorkshopJsonE.csproj", "{BA8B9D7C-D280-4F2D-981E-66A529152A7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{DCACFF3F-3105-42E8-9DC9-79CCB0B1E729}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCACFF3F-3105-42E8-9DC9-79CCB0B1E729}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCACFF3F-3105-42E8-9DC9-79CCB0B1E729}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA8B9D7C-D280-4F2D-981E-66A529152A7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA8B9D7C-D280-4F2D-981E-66A529152A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA8B9D7C-D280-4F2D-981E-66A529152A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA8B9D7C-D280-4F2D-981E-66A529152A7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
